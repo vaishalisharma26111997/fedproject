@@ -1,0 +1,362 @@
+*{   border: none;transition: all 0.2s ease-in-out;margin: 0;padding: 0;}
+body{ margin: 0 120px;}
+.header{top: 0;width: 100%;background-color: white;}
+.header .title
+{color: #BC9B5D; font: normal bold 20px / 1.4em georgia, palatino, "book antiqua", "palatino linotype", serif;
+ margin-top: 0px;
+text-shadow: 0 0 2px #000000;
+text-align: center;
+}
+.header .title .titleText img
+{
+    margin-top: 60px;
+    box-shadow: 0 0 2px #000000;
+}
+.header .cart
+{
+    text-align: center;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.761);
+    text-decoration: none;
+    font: bold 1em serif;
+    position: absolute;
+    top: 175px;
+    border-radius: 5px;
+    padding: 15px 25px;
+    left: 80vw;
+}
+.header .cart:hover
+{
+    background-color: black;
+    color: white;
+    text-align: left;
+}
+.tabWrap
+{
+    width: 100%;
+    background-color: black;
+    margin: 60px 0 0;
+}
+.tab
+{
+    margin: 22px;
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+    cursor: pointer;
+}
+.tab li a
+{
+    color: white;
+    text-decoration: none;
+    font: 20px serif;
+    padding: 22px;
+    left: 20px;
+}
+.tab li a:hover
+{
+    color: silver;
+    background-color: white;
+}
+.heading
+{
+    margin: 5% 5% 5%;
+}
+.heading h2
+{
+    color: black;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.632);
+    font-size: 35px;
+    text-align: center;
+}
+.heading h3
+{
+    font: italic bold 20px serif;
+    margin: 60px 100px 20px;
+}
+.heading p
+{
+    font: italic bold 25px serif;
+    color: #FFFFFF;
+}
+
+.mySlides
+{
+    display: none;
+}
+.prev
+{
+    font-weight: bold;
+    cursor: pointer;
+    padding: 28px;
+    font-size: 18px;
+    color: #FFFFFF;
+    transition: 0.6s ease;
+    position: relative;
+    border-radius: 0 3px 3px 0;
+    float: next;
+    top: -259px;
+    float: left;
+
+}
+.next
+{
+    top: -259px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 28px;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    border-radius: 3px 0 0 3px;
+    float: right;
+}
+.prev:hover, .next:hover
+{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.slideshowContainer div img
+{
+    height: 450px;   
+}
+.dot
+{
+    cursor: pointer;
+    position: relative;
+    height: 13px;
+    width: 13px;
+    margin: 2px;
+    background-color: #BBB;
+    border-radius: 50%;
+    display: inline-flex;
+}
+.active, .dot:hover
+{
+    background-color: #717171;
+}
+.main h3
+{
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.632);
+    font-size: 25px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 3%;
+}
+.mainWrapper
+{
+    margin: 5%;
+    display: inline-flex;
+    list-style: none;
+}
+.mainWrapper1 {
+    margin: 20px 20px 5px 20px;
+    display: inline-flex;
+    list-style: none;
+}
+.mainWrapper1.wrapper{
+    background-color: #FFFFFF;
+    margin: 0 2% 0 0;
+    padding: 10px;
+    border-radius: 1%;
+    box-shadow: 0 0 20px 0 rgba(142, 203, 155, 0.538), 0 0 0 0; 
+}
+.mainWrapper1 .wrapper .foodInfo
+{
+    margin: 3%;
+}
+.mainWrapper1 .wrapper div img
+{
+    border-radius: 5% 5% 0 0;
+}
+.mainWrapper .wrapper
+{
+    background-color: #FFFFFF;
+    margin: 0 2% 0 0;
+    padding: 10px;
+    border-radius: 5%;
+    box-shadow: 0 0 50px 0 rgba(142, 203, 155, 0.538), 0 0 0 0;
+}
+.mainWrapper .wrapper div img
+{
+    border-radius: 5% 5% 0 0;
+}
+.mainWrapper .wrapper .foodInfo
+{
+    margin: 2%;
+}
+.mainWrapper .wrapper div img
+{
+    height: 250px;
+}
+.mainWrapper .wrapper .foodInfo h4
+{
+    color: rgba(21, 180, 29, 0.872);
+    font-weight: bold;
+}
+.mainWrapper .wrapper .foodInfo p
+{
+    color: #000000;
+    font: normal 15px serif;
+}
+.footer
+{
+    background-color: #FFFFFF;
+    position: relative;
+}
+.footer .contentSubscribe
+{
+    margin: 0 100px 0;
+}
+.footer .contentSubscribe .subscriber
+{
+    padding: 100px 0px;
+}
+.footer .contentSubscribe .subscriber h5
+{
+    color: #000000;
+    font-size: medium;
+    font-style: italic;
+    text-shadow: 0.10px 0.15px 1px #410303;
+}
+.footer .contentSubscribe .subscriber input[type=email]
+{
+    width: 250px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #79E0DD;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #DAEFEF;
+    color: black;
+}
+.footer .contentSubscribe .subscriber input[type=submit]
+{
+    width: 100px;
+    background-color: #4DB8B0;
+    color: white;
+    padding: 13.5px 20px;
+    margin: 8px 0;
+    border: 0.1px solid #1E8280;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.footer .contentSubscribe .subscriber input[type=submit]:hover
+{
+    background-color: #7CA19C;
+}
+.footer .contentInfo
+{
+    margin: -176px 56px 0 0;
+    float: right;
+    position: relative;
+}
+.footer .contentInfo h4
+{
+    color: #790B0B;
+    font-size: 22px;
+    font-style: oblique;
+    text-shadow: 0.10px 0.15px #FE6B6B;
+}
+.footer .contentInfo p
+{
+    color: #270101;
+    font-size: 15px;
+}
+.links
+{
+    float: right;
+    margin: -116px 99px 0 0;
+}
+.links ul
+{
+    list-style: none;
+    display: inline-flex;
+    overflow: hidden;
+}
+.links ul li
+{
+    margin: 0 0 0 10px;
+}
+
+/*contact*/
+.contactWrap
+{
+    
+    padding: 10px 0 20px;
+    background-color: rgba(247, 244, 244, 0.103);
+}
+.contactWrapper
+{
+    margin: 20px;
+}
+.contactWrapper h2
+{
+    text-align: center;
+    text-shadow: 0 0 2px #000000;
+    font-size: 30px;
+}
+.contactWrapper p
+{
+    text-align: center;
+    font-size: 22px;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.427);
+    color: #FFFFFF;
+    margin: 30px;
+}
+.contactWrapper p span
+{
+    margin: 0 15px;
+}
+.emailWrapper form
+{
+    background-color: rgba(255, 255, 255, 0.735);
+    margin: 5% 25%;
+    border-radius: 10px;
+    padding: 20px;
+}
+.emailWrapper h3
+{
+    color: #000000;
+    font-size: 15px;
+    font: normal bold 20px / 1.4em georgia, palatino, "book antiqua", "palatino linotype", serif;
+    text-shadow: 0 0 2px #0DF0DF;
+}
+.emailWrapper p
+{
+    color: gray;
+    font-size: 15px;
+    font-style: normal;
+    margin-top: 29px;
+    margin-bottom: 20px;
+}
+.emailWrapper input, textarea
+{
+    width: 95%;
+    padding: 12px 40px 5px 0;
+    margin: 10px 0;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.179);
+    color: gray;
+    border-radius: 5px;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+}
+.emailWrapper button
+{
+    width: 80px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 15px 5px;
+    margin: 20px 0 0 100px;
+    border: 0.1px solid #1E8280;
+    font: normal bold 12px / 1.4em georgia, palatino, "book antiqua", "palatino linotype", serif;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+.emailWrapper button:hover
+{
+    background-color: #000000;
+    color: #09F0D2;
+}
